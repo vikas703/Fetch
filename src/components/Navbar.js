@@ -4,8 +4,8 @@ import '../Styles/Navbar.css';
 
 const Navbar = ({setShow}) => {
   return (
-    <nav>
-    <div className='nav_box'>
+    <div className='Main'>
+    <div className='Nav'>
     <span className='my_shop' onClick={() => (setShow(true)) }>Happy Shopping </span>
     <div className='cart' onClick={() => setShow(false)}>
     <span>
@@ -14,7 +14,7 @@ const Navbar = ({setShow}) => {
     </div>
       
     </div>
-    </nav>
+    </div>
   )
 }
 

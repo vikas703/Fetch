@@ -4,8 +4,6 @@ import Info from './components/Info';
 import Cart from './components/Cart';
 
 
-
-
 const App = () => {
   const [show , setShow] = useState(true);
   const [cart, setCart] = useState([]);
@@ -37,12 +35,13 @@ const handleChange = (item , d) => {
     
 
       <Info  />
-      </div>);
+      </div>
+      );     
 };
 
 export default App
 
 
-//{show 
-  //? ( <Info handleClick={handleClick}  /> )
-  //: ( <Cart cart={cart} setCart={setCart} handleChange={handleChange} /> ) }
+  //"homepage": "http://vikas703.github.io/Fetch",
+
+  

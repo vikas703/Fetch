@@ -9,9 +9,9 @@ const Info  = ({ handleClick }) => {
 
     
   useEffect(() =>{
-    fetch('https://fakestoreapi.com/products').then(
-      response => response.json()
-    ).then(json => setData(json))
+    fetch('https://fakestoreapi.com/products')
+    .then(response => response.json())
+    .then(json => setData(json))
   },[]);
  
  
@@ -19,6 +19,7 @@ const Info  = ({ handleClick }) => {
 
 
   return (
+    
     <div className='Details'>
     
     
